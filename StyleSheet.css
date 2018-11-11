@@ -1,0 +1,73 @@
+﻿body {
+    background-image: url("images/achtergrond1.png");
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Bahnschrift;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+div.buttons {
+    position: absolute;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    bottom: 0;
+    right: 0;
+}
+
+div.buttonl {
+    position: absolute;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    bottom: 0;
+    left: 0;
+}
+
+div.button {
+    position: relative;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+img.smallButton {0
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    align-content: center;
+}
+
+div.middle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+img.middle {
+    position: absolute;
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    clip-path: circle(150px at center);
+}
